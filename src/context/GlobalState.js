@@ -3,7 +3,10 @@ import AppReducer from './AppReducer';
 
 // Initial state
 const initialState = {
-  transactions: []
+  transactions: [
+        {id:1, text:"Monthly Salary", amount: 70000},
+        {id:2, text: "Expenses",amount: -50000},
+  ]
 }
 
 // Create context
